@@ -1,0 +1,59 @@
+.highlight{
+    background-color: yellow;
+
+}
+.error {
+    background-color: lightcoral;
+    border: red;
+
+}
+html{
+    font-family: 'sans serif';
+    background-image: linear-gradient(30deg, rgb(113, 22, 22), rgb(138, 138, 58));
+    
+
+
+}
+h1{
+    text-align: center;
+    font: 'sans serif';
+    margin-top: 10%;
+    
+}
+p{
+    text-align: center;
+    margin-top: 0%;
+
+}
+button{
+    text-align: center;
+    border-radius: 12px;
+    position: absolute;
+    transform: (-50%, -50%);
+    top: 50%;
+    left: 60%;
+    margin: auto;
+    height: 5%;
+    width: 10%;
+
+}
+button:hover{
+    background-color: grey;
+}
+input{
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform:(-40%, -40%);
+    border-radius: 4px;
+    width: 32%;
+    height: 5%;
+    
+}
+.score{
+    margin-top: 25%;
+    margin-left: -38%;
+    font: 'sans serif';
+}
